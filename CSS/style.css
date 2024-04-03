@@ -1,0 +1,144 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+.header {
+    color: #151313;
+    background-color: #BED7DC;
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+}
+
+.header h2 {
+    cursor: pointer;
+}
+
+.header h2:hover {
+    color: #FFCDEA;
+}
+
+a {
+    text-decoration: none;
+    color: #FB9AD1;
+}
+
+.ling a {
+    color: rgb(0, 0, 0);
+}
+
+.ling {
+    position: relative;
+    right: -30%;
+}
+
+li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.navbar li {
+    background-color: #B3C8CF;
+    padding: 5px 14px;
+    padding: 5px 14px;
+    border-radius: 5px;
+    border: solid #ffffff 2pt;
+}
+
+.navbar li:hover {
+    background-color: #BED7DC;
+    transition: ease 0.3s;
+    border-radius: 5px;
+}
+.sambut {
+    text-align: center;
+    margin: 6rem;
+    padding: 1rem;
+    color: #3E3232;
+}
+
+.sambut h2 {
+    margin-top: 2rem;
+}
+
+.sambut p {
+    margin: 2rem 5rem 0rem 5rem;
+    line-height: 1.5rem;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.profil {
+    max-width: 100%;
+    justify-content: center;
+    margin: 0rem;
+    padding: 1rem;
+    color: #3E3232;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.box {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 8px 9px 2px rgba(80, 60, 60, 0.5);
+    padding: 50px 70px;
+    margin: 20px;
+    max-width:50%;
+}
+
+.box img {
+    display: block;
+    margin: 0 auto ;
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(80, 60, 60, 0.1);
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+i {
+    color: #3E3232;
+    font-size: 15pt;
+}
+
+i:hover {
+    color: #FB9AD1;
+    transition: ease 0.3s;
+}
+
+.essay {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 8px 9px 2px rgba(80, 60, 60, 0.5);
+    padding: 70px;
+    margin: 20px;
+    max-width:50%;
+}
+
+.footer {
+    background-color: #BED7DC;
+    text-align: center;
+    color: #AC7D88;
+    margin-top: 10px;
+    padding: 1rem;
+    bottom: 0;
+}
